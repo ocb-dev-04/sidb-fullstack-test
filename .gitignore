@@ -426,3 +426,26 @@ FodyWeavers.xsd
 
 # Official VS Code C# Dev Kit Extension exclusion
 #*.lscache
+
+# Technical test source documents (confidential - SB internal use only)
+Dev-Sr/
+
+# Configuración local del editor y asistentes
+.claude/
+
+# Frontend (Node / Vite)
+node_modules/
+dist/
+coverage/
+test-results/
+.vite/
+*.local
+.env
+.env.*
+!.env.example
+.eslintcache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
